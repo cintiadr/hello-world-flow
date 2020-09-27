@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
-    "lint": "eslint --ext .js,.jsx ."
+    "lint": "eslint --max-warnings 0 --ext .js,.jsx ."
   },
   "dependencies": {
     "ejs": "^2.5.6",
