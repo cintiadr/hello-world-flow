@@ -7,15 +7,16 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "lint": "eslint --ext .js,.jsx ."
   },
   "dependencies": {
     "ejs": "^2.5.6",
+    "eslint": "^7.10.0",
     "express": "^4.15.2",
     "request": ">=2.81.0"
   },
   "devDependencies": {
+    "eslint-plugin-security": "^1.4.0",
     "got": "^11.3.0",
     "tape": "^5.0.1"
   },
