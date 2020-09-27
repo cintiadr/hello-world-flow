@@ -2,6 +2,9 @@
 
 set -eux
 
+ls -la
+pwd
+
 #### Searching for secrets
 SCANREPO_VERSION="0.4.0"
 wget https://github.com/UKHomeOffice/repo-security-scanner/releases/download/${SCANREPO_VERSION}/scanrepo-${SCANREPO_VERSION}-linux-386.tar.gz
