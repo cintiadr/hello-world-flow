@@ -2,14 +2,12 @@
 
 set -eux
 
+#### Searching for secrets
+
+GO111MODULE=on go get github.com/zricethezav/gitleaks/v6
 ls -la
 pwd
 
-#### Searching for secrets
-SCANREPO_VERSION="0.4.0"
-wget https://github.com/UKHomeOffice/repo-security-scanner/releases/download/${SCANREPO_VERSION}/scanrepo-${SCANREPO_VERSION}-linux-386.tar.gz
-tar xzf scanrepo-${SCANREPO_VERSION}-linux-386.tar.gz
-git log -p | ./scanrepo
 
 #### Running unit tests
 npm test
