@@ -2,9 +2,8 @@
 
 set -eux
 
-env
-set
 #### Searching for secrets
+npm run lint
 
 #### Running unit tests
 npm test
