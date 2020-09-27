@@ -2,7 +2,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test": "./ci.sh"
+        "test": "bash ./ci.sh"
       }
     }
   }
