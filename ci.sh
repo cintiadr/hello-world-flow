@@ -9,4 +9,4 @@ npm test
 # npm run lint
 
 
-jq --version
+cat app.json | jq ".environments"
