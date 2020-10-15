@@ -10,3 +10,5 @@ npm test
 
 
 git --version
+
+git status
