@@ -7,3 +7,6 @@ npm test
 
 #### Searching for vulnerabilities
 npm run lint
+
+
+jq --version
