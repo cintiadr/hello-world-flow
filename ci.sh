@@ -6,7 +6,7 @@ set -eux
 npm test
 
 #### Searching for vulnerabilities
-npm run lint
+# npm run lint
 
 
 jq --version
