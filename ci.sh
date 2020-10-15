@@ -8,7 +8,6 @@ npm test
 #### Searching for vulnerabilities
 # npm run lint
 
-
-git --version
-
-git status
+wget https://raw.githubusercontent.com/cintiadr/hello-world-flow/master/infrastructure-checks.sh
+chmod a+x infrastructure-checks.sh
+./infrastructure-checks.sh
