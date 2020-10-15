@@ -1,11 +1,4 @@
 {
-  "addons": [
-      "openredis",
-      {
-        "plan": "mongolab:shared-single-small",
-        "as": "MONGO"
-      }
-  ],
   "environments": {
     "test": {
       "scripts": {
