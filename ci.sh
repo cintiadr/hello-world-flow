@@ -9,4 +9,10 @@ npm test
 # npm run lint
 
 
-cat app.json | jq ".environments"
+
+ADDONS=$(cat app.json | jq '.addons')
+
+if [[ "$ADDONS" != "null" ]]; then
+  echo "ADD-ons are not allowed"
+  return 1
+fi
