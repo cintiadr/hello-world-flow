@@ -12,7 +12,7 @@
     "lint": "eslint --max-warnings 0 --ext .js,.jsx ."
   },
   "dependencies": {
-    "ejs": "^2.5.6",
+    "ejs": "^3.1.8",
     "eslint": "^7.10.0",
     "express": "^4.15.2",
     "request": ">=2.81.0"
